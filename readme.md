@@ -61,3 +61,4 @@ my_fastapi_project/
     ├── versions/            # Файлы миграций
     ├── env.py               # Конфигурация Alembic
     └── alembic.ini          # Настройки Alembic
+```
