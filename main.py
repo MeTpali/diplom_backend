@@ -77,7 +77,7 @@ app.add_middleware(
 )
 
 # Подключаем роутеры API v1
-app.include_router(api_router)
+app.include_router(api_router, prefix="/api")
 
 if __name__ == "__main__":
     import uvicorn
